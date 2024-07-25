@@ -36,7 +36,7 @@ export default function Projects() {
           target="_blank"
           className="text-white border border-gray px-20 py-6 rounded-2xl hover:bg-stone-800 transition-all font-poppins font-bold"
         >
-          MEU REPOSITÓRIO
+          MEUS REPOSITÓRIOS
         </a>
       </div>
     </section>
