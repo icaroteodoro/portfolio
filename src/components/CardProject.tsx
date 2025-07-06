@@ -15,7 +15,7 @@ export default function CardProject(props: CardProjectsProps) {
         <div className="flex flex-col lg:flex-row p-6 border border-gray rounded-3xl mt-10">
             <div className="w-full lg:w-2/6">
                 <div className="rounded-2xl bg-gray w-full h-40 md:h-96 lg:h-60 flex items-center justify-center text-white font-extrabold font-poppins overflow-hidden">
-                    {props.urlImage === '' ? 'SEM IMAGEM' : <img className="w-full h-full" src={props.urlImage}/>}
+                    {props.urlImage === '' ? 'SEM IMAGEM' : <img className="w-full h-full object-cover" src={props.urlImage}/>}
                 </div>
             </div>
             <div className="w-full lg:w-4/6 mt-7 lg:mt-0 mx-0 lg:mx-5 text-stone-300 flex flex-col justify-center">

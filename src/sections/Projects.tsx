@@ -6,30 +6,29 @@ export default function Projects() {
     <section id="projects" className="py-20 lg:py-28 container">
       <TitleBody>PROJETOS</TitleBody>
       <CardProject
-        title="API ENTREGÔ"
-        description="Essa é uma API que estou desenvolvendo para um aplicativo de delivery."
-        skills={["JAVA", "SPRING FRAMEWORK", "MYSQL"]}
+        title="ENTREGÔ - App de Delivery"
+        description="Estou desenvolvendo este sistema completo com o objetivo de aprendizado, utilizando o YouTube como principal fonte de estudo, além de contar com o suporte do ChatGPT e do Stack Overflow."
+        skills={["Java", "Spring", "MySQL", "Next.js", "React.js", "WebSocket"]}
         urlCode="https://github.com/icaroteodoro/EntregoAPI"
-        urlSite=""
-        urlImage=""
+        urlSite="https://entrego-store.netlify.app/"
+        urlImage="../entrego-dashboard.png"
       />
       <CardProject
-        title="API TODOLIST"
-        description="Fiz essa API, para um app de todolist que ainda estou desenvolvendo."
-        skills={["JAVA", "SPRING FRAMEWORK"]}
-        urlCode="https://github.com/icaroteodoro/todolist-java"
-        urlSite=""
-        urlImage=""
-      />
-      <CardProject
-        title="INSTITUTO BIOTA DE CONSERVAÇÃO"
-        description="Desenvolvi o frontend dessa página web, pela empresa em que eu trabalho atualmente."
-        skills={["HTML", "CSS", "JS", "BOOTSTRAP", "JQUERY"]}
+        title="Team Rafa - Landing Page"
+        description="Criei esta landing page para o treinador Rafael Vieira usando Next.js, já pensando na futura evolução para um sistema de acompanhamento dos alunos"
+        skills={["React.js", "Next.js"]}
         urlCode=""
-        urlSite="https://institutobiota.org.br"
-        urlImage="../biota.png"
+        urlSite="https://team-rafa.netlify.app/"
+        urlImage="../team-rafa.png"
       />
-
+      <CardProject
+        title="DailyLog - Gerenciador de dailys"
+        description="Estou criando este projeto para simplificar a criação e o acompanhamento de dailys da minha equipe."
+        skills={["Java", "Spring", "Next.js", "React.js"]}
+        urlCode="https://github.com/icaroteodoro/dailylog.api"
+        urlSite=""
+        urlImage="../dailylog.png"
+      />
       <div className="flex py-5 items-center justify-center">
         <a
           href="https://github.com/icaroteodoro?tab=repositories"
